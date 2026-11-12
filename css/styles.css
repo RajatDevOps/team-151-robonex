@@ -242,7 +242,7 @@ ul { padding-left: 1.2em; }
   border: 1px solid var(--border);
   border-radius: 10px;
 }
-.stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; justify-content: start; }
 .stat-card {
   background: var(--surface);
   border: 1px solid var(--border);
